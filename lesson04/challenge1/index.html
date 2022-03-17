@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lesson 4</title>
+  </head>
+  <body>
+    <button onclick="numberSquare()">Click Me!</button>
+    <button onclick="userSquare()">Me too!</button>
+    <script>
+      function numberSquare() {
+        let input = prompt('Enter a number');
+        let result = 0;
+
+        result = Number(input) ** 2;
+
+        alert(result);
+      }
+
+      function userSquare() {
+        let inputOne = prompt('Enter a number');
+        let inputTwo = prompt('Enter another number');
+        let result = 0;
+
+        result = Number(inputOne) * Number(inputTwo);
+
+        alert(result);
+      }
+    </script>
+  </body>
+</html>
